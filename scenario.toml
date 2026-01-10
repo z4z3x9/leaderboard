@@ -1,16 +1,12 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+env = { API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
+name = "Purple Agent"
+agentbeats_id = "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy"
 env = {}
 
 [config]
-# Add your assessment config here
+# 如果你的 Green Agent 需要特定的评测参数（例如指定漏洞任务），在这里添加
+# 例如: task_id = "arvo:1065"
