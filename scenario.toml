@@ -1,11 +1,11 @@
 [green_agent]
-agentbeats_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-env = { API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019ba73b-e533-75b2-aa4f-b50de8c19a75"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", GOOGLE_API_BASE = "${GOOGLE_API_BASE}", GEMINI_API_KEY = "${GEMINI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 name = "Purple Agent"
-agentbeats_id = "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy"
-env = {}
+agentbeats_id = "019ba72b-32b6-7c62-86a5-4b99d544eb45"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", GOOGLE_API_BASE = "${GOOGLE_API_BASE}", GEMINI_API_KEY = "${GEMINI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [config]
 # 如果你的 Green Agent 需要特定的评测参数（例如指定漏洞任务），在这里添加
