@@ -3,7 +3,7 @@ agentbeats_id = "019ba73b-e533-75b2-aa4f-b50de8c19a75"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", GOOGLE_API_BASE = "${GOOGLE_API_BASE}", GEMINI_API_KEY = "${GEMINI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-name = "Purple Agent"
+name = "purple_agent"
 agentbeats_id = "019ba72b-32b6-7c62-86a5-4b99d544eb45"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", GOOGLE_API_BASE = "${GOOGLE_API_BASE}", GEMINI_API_KEY = "${GEMINI_API_KEY}", LOG_LEVEL = "INFO" }
 
